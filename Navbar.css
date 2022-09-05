@@ -1,0 +1,41 @@
+.NavbarItems{
+    background-color: rgb(77, 189, 234);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.logo-imagen{
+    height: 160px;
+    width: 160px;
+    
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap:10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+.nav-links{
+    color:rgb(14, 13, 13);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 253, 253);
+    border-radius: 15px;
+}
+.nav-links:hover{
+    color: rgb(44, 145, 199);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+.Inicio{
+    height: 150px;
+    width: 150px;
+}
